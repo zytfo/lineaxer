@@ -1,0 +1,9 @@
+{
+  "name": "lineaxer-subgraph",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@openzeppelin/subgraphs": "^0.1.8-5"
+  }
+}

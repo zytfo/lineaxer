@@ -1,0 +1,7 @@
+{
+  "output": "generated/lineaxer.",
+  "chain": "mainnet",
+  "datasources": [
+    { "startBlock": 1006610, "module": "erc721" }
+  ]
+}
