@@ -12,7 +12,7 @@
 
 3. `docker-compose up -d`
 
-3.1 It may go down on M1 due to out-of-memory problem. Check this out: https://github.com/graphprotocol/graph-node/tree/master/docker#running-graph-node-on-an-macbook-m1
+- It may go down on M1 due to out-of-memory problem. Check this out: https://github.com/graphprotocol/graph-node/tree/master/docker#running-graph-node-on-an-macbook-m1
 
 The sample of the `docker-compose.yaml` provided in this repository.
 
