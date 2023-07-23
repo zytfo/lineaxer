@@ -2,20 +2,22 @@
 
 ## Linea x The Graph x Metamask
 
-### Author: Artur Khaialiev a.k.a [zytfo](https://github.com/zytfo)
+### Artur Khaialiev a.k.a [zytfo](https://github.com/zytfo)
+
+---
 
 ### Applied bounties:
 
 - [Metamask x Linea](https://ethglobal.com/events/paris2023/prizes#metamask): Build an NFT indexer on Linea
 - [The Graph](https://ethglobal.com/events/paris2023/prizes#the-graph): Best New Subgraph or Substream; Best use of Existing Subgraph or Substream
 
-## Submission Content
+## Submission Content 🤞
 
 1. [Lineaxer-Subgraph](https://github.com/zytfo/lineaxer/tree/master/lineaxer-subgraph) - self-hosted Linea Goerli Subgraph with a ERC721 indexer. Deployed at: http://65.21.255.216:8000/subgraphs/name/generated/lineaxer/graphql
 
 2. [Lineaxer-Frontend](https://github.com/zytfo/lineaxer/tree/master/lineaxer-frontend) - self-hosted Next JS application to gather data from the deployed Linea Goerli subgraph. Deployed at: http://135.181.109.7:3000
 
-## Main Challenges
+## Main Challenges 💀
 
 1. The Graph
 
@@ -33,7 +35,7 @@
 
 - **I'M NOT A FRONTEND DEV BUT I MADE IT** (thanks to Patrick Collins from ChainLink with his tutorials)
 
-## How To
+## How To 🥷
 
 1. The Graph
 
@@ -50,11 +52,11 @@
 
 - You may also connect a wallet (just to look at how many funds do you have :))
 
-## Thanks To
+## Thanks To ❤️
 
 - Metamask x Linea team, especially Emily
 - The whole Graph team, I love you guys
-- My mom
+- My mom and a Talent Protocol Team
 
 ## A Few Pics
 
