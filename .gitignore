@@ -18,6 +18,7 @@ typechain
 .DS_Store
 *.apk
 *.ap_
+data/
 *.aab
 
 # Files for the ART/Dalvik VM

@@ -16,16 +16,20 @@
 
 The sample of the `docker-compose.yaml` provided in this repository.
 
-## Generate and deploy an ERC-721 subgraph on a local node.
+## Generate and deploy an ERC-721 subgraph on a local node with @openzeppelin/subgraphs.
 
 1. `yarn install`
 
 2. Check out `configs/sample.json`.
 
-3. `yarn graph-compiler --config configs/sample.json --include node_modules/@openzeppelin/subgraphs/src/datasources --export-schema --export-subgraph` - generate metadata and ABIs from `configs/sample.json`
+3. Install `yarn global add @graphprotocol/graph-cli`.
 
-4. `graph create generated/lineaxer --node http://127.0.0.1:8020` - create a new subgraph on a local Linea node
+4. `yarn graph-compiler --config configs/sample.json --include node_modules/@openzeppelin/subgraphs/src/datasources --export-schema --export-subgraph` - generate metadata and ABIs with `configs/sample.json`
 
-5. `graph deploy --ipfs http://localhost:5001 --node http://localhost:8020 generated/lineaxer ./generated/lineaxer.subgraph.yaml` - deploy created subgraph
+5. `graph create generated/lineaxer --node http://127.0.0.1:8020` - create a new subgraph on a local Linea node
 
-6. Proceed to http://localhost:8000/subgraphs/name/generated/lineaxer/graphql
+6. `graph deploy --ipfs http://localhost:5001 --node http://localhost:8020 generated/lineaxer ./generated/lineaxer.subgraph.yaml` - deploy created subgraph
+
+7. Proceed to http://localhost:8000/subgraphs/name/generated/lineaxer/graphql
+
+Deployed subgraph for a hackathon is here: http://65.21.255.216:8000/subgraphs/name/generated/lineaxer/graphql
