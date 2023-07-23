@@ -1,6 +1,6 @@
-# Lineaxer: Linea NFT-indexer
+# Lineaxer: Linea NFT-indexer 👾👽🤖 ETHGlobal Paris 🇫🇷
 
-## ETHGlobal Paris. Linea x The Graph x Metamask
+## Linea x The Graph x Metamask
 
 ### Author: Artur Khaialiev a.k.a [zytfo](https://github.com/zytfo)
 
@@ -25,13 +25,15 @@
 
 - I thought there was a CORS problem asking the subgraph with queries, but it was an incorrect subgraph URL
 
-- Rate limit on Infura. Syncing the Linea Coerli chain caused a rate limit of queries to a chain, thanks to Emily for providing me with an API-key for Infura
+- Rate limit on Infura. Syncing the Linea Goerli chain caused a rate limit of queries to a chain, thanks to Emily for providing me with an API-key for Infura
+
+- ERC721 indexer stuff generation. Refer [here](https://github.com/zytfo/lineaxer/tree/master/lineaxer-subgraph#generate-and-deploy-an-erc-721-subgraph-on-a-local-node-with-openzeppelinsubgraphs). Thanks to `@openzeppelin/subgraphs`
 
 2. Linea x Metamask
 
 - **I'M NOT A FRONTEND DEV BUT I MADE IT** (thanks to Patrick Collins from ChainLink with his tutorials)
 
-## How to
+## How To
 
 1. The Graph
 
@@ -44,13 +46,26 @@
 
 - Search for an adress in the URL after a slash (e.g. http://135.181.109.7:3000/0xb904c30e0f8f45f2face933523e33072a4e6781e)
 
-- Note: all addresses are clickable
+- Note: all addresses are clickable (may not show because of the long syncing)
 
 - You may also connect a wallet (just to look at how many funds do you have :))
 
-## Thanks to
+## Thanks To
 
 - Metamask x Linea team, especially Emily
 - The whole Graph team, I love you guys
+- My mom
 
-## A few pics
+## A Few Pics
+
+- **Lineaxer**
+
+![lineaxer](./images/lineaxer.png)
+
+- **The Subgraph GraphQL**
+
+![subgraph](./images/subgraph.png)
+
+- **Syncing Linea Goerli Subgraph**
+
+![subgraph](./images/node.png)

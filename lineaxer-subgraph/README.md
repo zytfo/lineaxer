@@ -32,4 +32,4 @@ The sample of the `docker-compose.yaml` provided in this repository.
 
 7. Proceed to http://localhost:8000/subgraphs/name/generated/lineaxer/graphql
 
-Deployed subgraph for a hackathon is here: http://65.21.255.216:8000/subgraphs/name/generated/lineaxer/graphql
+Deployed subgraph for a hackathon at: http://65.21.255.216:8000/subgraphs/name/generated/lineaxer/graphql
