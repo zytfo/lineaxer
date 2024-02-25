@@ -1,7 +1,8 @@
 {
   "name": "lineaxer",
   "version": "1.0.0",
-  "private": true,
+  "author": "zytfo <khayalievartur@gmail.com>",
+  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
